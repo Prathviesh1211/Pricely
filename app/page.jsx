@@ -35,7 +35,7 @@ export default function Home() {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <Image
-              src={"/image.png"}
+              src={"/pricely-logo.png"}
               alt="PRICELY"
               height={200}
               width={600}

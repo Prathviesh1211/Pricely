@@ -25,7 +25,7 @@ const AddProductForm = ({user}) => {
         onChange={(e)=>setUrl(e.target.value)}
         placeholder="Paste Product URL (Amazon, Flipkart, etc.)"
         required
-        disbaled={loading}
+        disabled={loading}
         />
 
       <Button className="h-10 sm:h-12 px-8 bg-orange-500 hover:bg-orange-600">
